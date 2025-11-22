@@ -7,17 +7,50 @@
         <link rel="stylesheet" href="./output.css">
     </head>
     <body>
-        <header class="max-w-[100%] m-auto bg-red-950 text-white">
-            <nav class="w-[90%] m-auto flex justify-between h-[60px] items-center">
-                <p class="text-[20px] font-bold">Rocketeer</p>
-                <ul class="flex gap-[15px]">
-                    <li class="text-[18px] ">Home</li>
-                    <li class="text-[18px] ">About us</li>
-                    <li class="text-[18px] ">View Product</li>
-                    <li class="text-[18px] ">Pricing</li>
+        <header class="max-w-[1200px] m-auto">
+            <div class="w-[90%] m-auto flex h-[70px] justify-between items-center">
+                <img src="./Logo.png" alt="">
+                <ul class="lg:flex gap-[20px] hidden ">
+                    <li>
+                        <p class="text-[16px] text-gray-500">ВРЕМЯ РАБОТЫ</p>
+                        <p class="text-[16px]">Пн-Вс 9:00-21:00</p>
+                    </li>
+                    <li>
+                        <p class="text-[16px] text-gray-500">EMAIL</p>
+                        <p class="text-[16px]">info@it-komfort.ru</p>
+                    </li>
+                    <li>
+                        <p class="text-[16px] text-gray-500">МЕССЕНДЖЕРЫ</p>
+                        <p class="text-[16px]">+79128810296</p>
+                    </li>
+                    <li>
+                        <p class="text-[16px] text-gray-500">ТЕЛЕФОН</p>
+                        <p class="text-[16px]">+7(342)243-02-96</p>
+                    </li>
                 </ul>
-            </nav>
-        
+                <p class="lg:hidden">☰</p>
+            </div>
         </header>
+        <main class="max-w-[1200px] m-auto">
+            <!--Section 1-->
+            <section class="flex flex-col gap-[20px] lg:flex-row lg:justify-between">
+                <div class="w-[400px] m-auto lg:w-[500px] h-[500px] flex flex-col  gap-[25px]">
+                    <h1 class="text-[45px] font-bold">Поможем <br>навести порядок <br>в компании</h1>
+                    <p class="text-[20px]">Внедрение CRM за 2 недели. <br>Работаем по всей России.</p>
+                    <div class="flex flex-col gap-[15px]">
+                        <div class="flex gap-[5px] justify-between">
+                            <input class="py-[10px] px-[15px] text-[18px] border-[1px] boder-solid border-gray" type="text" placeholder="Название компании">
+                            <input class="py-[10px] px-[15px] text-[18px] border-[1px] boder-solid border-gray" type="number" placeholder="Телефон*">
+                        </div>
+                        <button class="bg-blue-900 text-white py-[10px] px-[20px]">ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</button>
+                        <p class="text-center text-[14px] lg:text-[18px]">Мы никогда не передаём Ваши данные третьим лицам</p>
+                    </div>
+                </div>
+                <div class="hidden w-[400px] m-auto h-[500px] lg:flex items-center">
+                    <img class="w-[400px] h-[300px]" src="./image 15.png" alt="">
+                </div>
+                
+            </section>
+        </main>
     </body>
 </html>
